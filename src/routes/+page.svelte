@@ -33,7 +33,7 @@
     </p>
     <p class="mb-0.5 text-gray-400 opacity-30">Butttt, yes you can also say any number 😭😅</p>
 
-    <hr class="my-4 border-gray-300 dark:border-gray-700">
+    <hr class="my-4 border-gray-700">
 
     {#if loading}
       <div class="h-10 bg-gray-200 rounded-md dark:bg-gray-700 mb-4"></div>
