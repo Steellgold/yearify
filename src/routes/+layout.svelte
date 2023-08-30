@@ -4,7 +4,7 @@
   export let title: string = "Year to Words";
   export let siteName: string = "Get year to words";
   export let description: string = "Type the year in the input field and get the correct pronunciation in English.";
-  export let url: string = "https://wordsyears.vercel.app";
+  export let url: string = "https://yearify.vercel.app";
   export let keywords: string = "sveltekit, svelte, sveltekit starter, sveltekit template, sveltekit typescript, sveltekit tailwindcss";
   export let color: string = "#0F172A";
 </script>
