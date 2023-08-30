@@ -1,6 +1,7 @@
 <script lang="ts">
-  import { toWords } from "number-to-words";
+  import pkg from "number-to-words";
   import { onMount } from "svelte";
+  const { toWords } = pkg;
 
   const numberToWords = (number: number) => {
     return toWords(number);
