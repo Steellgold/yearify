@@ -26,7 +26,7 @@
 </script>
 
 <div class="flex items-center justify-center mt-10">
-  <div class="block max-w-sm p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
+  <div class="block max-w-sm px-3 p-6 border rounded-lg shadow bg-gray-800 border-gray-700">
     <h5 class="mb-2 text-2xl font-bold tracking-tight text-white">How to say this year?</h5>
     <p class="font-normal text-gray-400">
       Type the year in the input field and get the correct pronunciation in English.
