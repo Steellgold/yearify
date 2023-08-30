@@ -5,10 +5,9 @@
   const numberToWords = (number: number) => {
     return toWords(number);
   };
-  
+ 
   export let year: number = new Date().getFullYear();
   export let yearWords: string = numberToWords(year);
-  
   let loading = true;
 
   onMount(() => {
@@ -21,6 +20,7 @@
       }
     }
 
+    loading = false;
   });
 </script>
 
@@ -30,6 +30,7 @@
     <p class="font-normal text-gray-400">
       Type the year in the input field and get the correct pronunciation in English.
     </p>
+    <p class="mb-0.5 text-gray-400 opacity-30">Butttt, yes you can also say any number 😭😅</p>
 
     <hr class="my-4 border-gray-300 dark:border-gray-700">
 
