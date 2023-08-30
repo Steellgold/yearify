@@ -1,9 +1,13 @@
 <script lang="ts">
   import { toWords } from "number-to-words";
   import { onMount } from "svelte";
+
+  const numberToWords = (number: number) => {
+    return toWords(number);
+  };
   
   export let year: number = new Date().getFullYear();
-  export let yearWords: string = "";
+  export let yearWords: string = numberToWords(year);
   
   let loading = true;
 
@@ -17,12 +21,7 @@
       }
     }
 
-    loading = false;
   });
-
-  const numberToWords = (number: number) => {
-    return toWords(number);
-  };
 </script>
 
 <div class="flex items-center justify-center mt-10">
